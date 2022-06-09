@@ -1089,7 +1089,10 @@ Responsive CSS
     margin-top: 100px;
     
   }
- 
+
+  .half-img{
+    width: 40%;
+  }
  
   .about-area-content h3 {
     font-size: 25px;
