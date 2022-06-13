@@ -18,6 +18,12 @@ Responsive CSS
     padding-right: 14px;
   }
 
+  .underline-gold-phone {
+    border-top: 3px solid #a29464;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
   .section-title {
     margin-bottom: 30px;
   }
@@ -27,7 +33,31 @@ Responsive CSS
   }
 
   .section-title h2 {
-    font-size: 28px;
+    font-size: 24px;
+  }
+
+  .section-title .half p {
+    font-size: 12px;
+  }
+
+  .section-title-img {
+    width: 180px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+  }
+
+  .bg-asa-phone {
+    margin-top: 60px;
+  }
+
+  .logo-asa-phone {
+    width: 200px;
+    height: 175px;
+  }
+
+  .button-asa-phone {
+    width: 120px;
   }
 
   .pb-70 {
@@ -98,8 +128,12 @@ Responsive CSS
     font-size: 45px;
   }
 
+  .single-fun-fact-iconimg {
+    width: 50px;
+  }
+
   .single-fun-fact h3 {
-    font-size: 35px;
+    font-size: 24px;
     margin: 5px 0 5px 0;
   }
 
@@ -108,12 +142,53 @@ Responsive CSS
     margin-left: -5px;
   }
 
+  .single-fun-fact-phone {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
   .about-area-content span {
     font-size: 12px;
   }
 
   .about-area-content h3 {
-    font-size: 25px;
+    font-size: 22px;
+  }
+
+  .about-area-content p {
+    font-size: 12px;
+  }
+
+  .about-area-content-button-phone {
+    width: 100px;
+  }
+
+  .half p {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  .half-about-phone {
+    width: 80%;
+    max-width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-area-content-phone {
+    display: block;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+
+  .about-area-content-frame-phone {
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
   }
 
   .about-list-tab .tabs li a {
@@ -136,6 +211,45 @@ Responsive CSS
 
   .about-image .image-content h3 {
     font-size: 25px;
+  }
+
+  .single-privacy p {
+    font-size: 12px;
+  }
+
+  .single-privacy h3 {
+    font-size: 16px;
+  }
+.button-download-phone{
+  width: 100px;
+}
+  .img-frame-phone {
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+
+  .half-phone {
+    margin-top: 20px;
+  }
+  .half-post-phone{
+    width: 100%;
+    margin: auto;
+  }
+  .half-post1 {
+    width: 100%;
+
+  }
+
+  .half-post2 {
+    width: 100%;
+
+  }
+ 
+  .team-img-phone {
+    width: 60%;
+    display: block;
+    margin: auto;
   }
 
   .overview-image-slider {
@@ -444,15 +558,25 @@ Responsive CSS
   }
 
   .single-footer-widget h3 {
-    font-size: 20px;
+    font-size: 14px;
     margin-bottom: 20px;
+  }
+  .single-footer-widget p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .download-phone{
+    width: 40%;
+  }
+  .map-phone{
+    width: 40%;
   }
 
   .footer-bottom-text {
     text-align: center;
   }
 
- 
+
 
   .footer-bottom-social {
     text-align: center;
@@ -1182,12 +1306,15 @@ Responsive CSS
   .section-title h2 {
     font-size: 28px;
   }
+  .text-ipad{
+    padding-top: 250px;
+  }
 
-  div.underline-gold {
+  /* .underline-gold {
     border-top: 3px solid #a29464;
     margin-left: 50px;
     margin-right: 50px;
-  }
+  } */
 
   .footer-widget-right {
     margin: auto;
@@ -1204,15 +1331,36 @@ Responsive CSS
   .main-footer {
     margin-top: 50px;
   }
-
-  .half-about {
+  .single-fun-fact-ipad{
+    margin-top: 50px;
+      }
+  .half-about-ipad {
     width: 80%;
     max-width: 450px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+  .button-asa-ipad {
+    width: 200px;
+  }
+  .about-area-content-button-ipad{
+    width: 150px;
+  }
+  .single-fun-fact-iconimg-ipad {
+    width: 70px;
+  }
 
+  .pc-about-ipad{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .download-ipad{
+    width: 40%;
+  }
+  .map-ipad{
+    width: 40%;
+  }
   .first-team {
     display: block;
     margin-left: 175px;
@@ -1761,13 +1909,14 @@ Responsive CSS
     text-align: center;
     margin-top: 20px;
   }
-  .info-footer-month{
-    margin-left: 100px;
-   }
 
-   .bgmain-ipad{
+  .info-footer-month {
+    margin-left: 100px;
+  }
+
+  .bgmain-ipad {
     margin-top: -10px;
-   }
+  }
 
   .example-demo-modal .inner {
     width: 355px;
@@ -1927,7 +2076,84 @@ Responsive CSS
   .text p {
     font-size: 14px;
   }
+.half-about-pc{
+  width: 80%;
+    max-width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.single-fun-fact-iconimg-pc {
+  width: 50px;
+}
+.number-about{
+  font-size: 36px;
+}
 
+.text-pc{
+  padding-top: 300px;
+}
+.pc-about{
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.first-team-pc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button-asa-pc {
+  width: 120px;
+}
+.about-area-content-pc {
+  display: block;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+}
+.download-pc{
+  width: 60%;
+  margin-top: 20px;
+}
+.map-phone{
+  width: 60%;
+  margin-top: 20px;
+}
+.about-area-content-button-pc {
+  width: 200px;
+}
+.post-button-pc1 {
+  margin-top: -350px;
+  margin-bottom: 400px;
+  padding-left: 50px;
+  width: 250px;
+}
+.about-area-content h3 {
+  font-size: 36px;
+}
+
+.about-area-content p {
+  font-size: 20px;
+}
+.post-button-pc2 {
+  margin-top: -350px;
+  padding-left: 50px;
+  margin-bottom: 70px;
+  width: 250px;
+}
+
+.img-frame-pc {
+  width: 35%;
+  display: block;
+  margin: auto;
+}
+.logo-asa-pc {
+  width: 200px;
+  height: 175px;
+}
   .events-item .events-text h3 {
     font-size: 25px;
   }
@@ -2055,10 +2281,115 @@ Responsive CSS
     padding-bottom: 200px;
   }
 }
-
-@media only screen and (min-width: 1824px) {
+@media only screen and (min-width: 1199px){
   .home-slider .home-item .slider-content {
     margin-top: 45px;
+  }
+  .half-about-pc-max{
+    width: 80%;
+      max-width: 450px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .single-fun-fact-iconimg-pc-max {
+    width: 70px;
+  }
+  .number-about-max{
+    font-size: 30px;
+  }
+  
+  .pc-about-max{
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  .first-team-pc-max {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .button-asa-pc-max {
+    width: 200px;
+  }
+  .about-area-content-pc-max {
+    display: block;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .download-pc-max{
+    width: 60%;
+    margin-top: 20px;
+  }
+  .map-phone-max{
+    width: 60%;
+    margin-top: 20px;
+  } 
+ 
+
+  .img-pc-max{
+    width: 70%;
+  }
+  .half-pc-max{
+    width: 50%;
+    margin: auto;
+  }
+  .half-post1-pc-max {
+    width: 100%;
+    /* margin-bottom: 200px; */
+
+  }
+
+  .half-post2-pc-max {
+    width: 100%;
+    margin-top: -150px;
+
+  }
+  .single-fun-fact-pc-max{
+margin-top: 50px;
+  }
+  .about-area-content-button-pc-max {
+    width: 150px;
+  }
+  .post-button-pc1 {
+    margin-top: -350px;
+    margin-bottom: 400px;
+    padding-left: 50px;
+    width: 250px;
+  }
+  .button-pc-max-readmore2{
+    margin-top: -420px;
+    margin-left: 40px;
+  }
+  
+  .button-pc-max-readmore1{
+    padding-top: 180px;
+    
+  }
+  .about-area-content-max h3 {
+    font-size: 36px;
+  }
+  
+  .about-area-content-max p {
+    font-size: 20px;
+  }
+  .post-button-pc2-max {
+    margin-top: -350px;
+    padding-left: 50px;
+    margin-bottom: 70px;
+    width: 250px;
+  }
+  
+  .img-frame-pc-max {
+    width: 35%;
+    display: block;
+    margin: auto;
+  }
+  .logo-asa-pc-max {
+    width: 200px;
+    height: 175px;
   }
 }
 
