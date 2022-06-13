@@ -17,16 +17,18 @@ Responsive CSS
     padding-left: 14px;
     padding-right: 14px;
   }
-
+.footer-phone{
+  margin-top: 70px;
+}
   .underline-gold-phone {
     border-top: 3px solid #a29464;
     margin-left: 50px;
     margin-right: 50px;
   }
 
-  .section-title {
+  /* .section-title {
     margin-bottom: 30px;
-  }
+  } */
 
   .section-title span {
     font-size: 12px;
@@ -50,12 +52,39 @@ Responsive CSS
   .bg-asa-phone {
     margin-top: 60px;
   }
-
+  .button-seemore-phone1{
+    width: 100px;
+    margin-left: 20px;
+    margin-top: -200px;
+  }
+  .button-seemore-phone2{
+    width: 100px;
+    margin-left: 20px;
+    margin-top: -200px;
+    
+  }
+  .seemore2-phone{
+    padding-top: -100px;
+  }
+  
   .logo-asa-phone {
     width: 200px;
     height: 175px;
+
+  }
+ 
+ 
+.half-post1-phone {
+    width: 100%;
+    padding-top: 100px;
+
   }
 
+  .half-post2-phone {
+    width: 100%;
+    padding-top: 200px;
+
+  }
   .button-asa-phone {
     width: 120px;
   }
@@ -228,9 +257,14 @@ Responsive CSS
     display: block;
     margin: auto;
   }
-
+  .text-phone{
+    padding-top: 200px;
+  }
+.row-phone{
+  margin-top: -200px;
+}
   .half-phone {
-    margin-top: 20px;
+    margin-top: 50px;
   }
   .half-post-phone{
     width: 100%;
@@ -238,7 +272,6 @@ Responsive CSS
   }
   .half-post1 {
     width: 100%;
-
   }
 
   .half-post2 {
@@ -571,7 +604,7 @@ Responsive CSS
   .map-phone{
     width: 40%;
   }
-
+  
   .footer-bottom-text {
     text-align: center;
   }
@@ -1307,9 +1340,12 @@ Responsive CSS
     font-size: 28px;
   }
   .text-ipad{
-    padding-top: 250px;
+    padding-top: 350px;
   }
-
+  .download-ipad{
+    width: 40%;
+    margin-top: 20px;
+  }
   /* .underline-gold {
     border-top: 3px solid #a29464;
     margin-left: 50px;
@@ -1360,6 +1396,7 @@ Responsive CSS
   }
   .map-ipad{
     width: 40%;
+    margin-top: 20px;
   }
   .first-team {
     display: block;
@@ -1541,15 +1578,16 @@ Responsive CSS
   }
 
   .post-button-ipad1 {
-    margin-top: -410px;
-    padding-left: 30px;
-    width: 110px;
+    margin-top: -600px;
+    margin-bottom: 150px;
+    padding-left: 55px;
+    width: 220px;
   }
 
   .post-button-ipad2 {
-    margin-top: -210px;
-    padding-left: 30px;
-    width: 110px;
+    margin-top: -375px;
+    padding-left: 55px;
+    width: 220px;
   }
 
   .half-img {
@@ -2083,6 +2121,10 @@ Responsive CSS
     margin-left: auto;
     margin-right: auto;
 }
+.map-pc{
+  width: 40%;
+  margin-top: 20px;
+}
 .single-fun-fact-iconimg-pc {
   width: 50px;
 }
@@ -2105,6 +2147,10 @@ Responsive CSS
 .button-asa-pc {
   width: 120px;
 }
+.img-post-pc{
+  width: 45%;
+}
+
 .about-area-content-pc {
   display: block;
   margin: auto;
@@ -2115,7 +2161,7 @@ Responsive CSS
   
 }
 .download-pc{
-  width: 60%;
+  width: 70%;
   margin-top: 20px;
 }
 .map-phone{
@@ -2126,10 +2172,10 @@ Responsive CSS
   width: 200px;
 }
 .post-button-pc1 {
-  margin-top: -350px;
+  margin-top: -250px;
   margin-bottom: 400px;
   padding-left: 50px;
-  width: 250px;
+  width: 200px;
 }
 .about-area-content h3 {
   font-size: 36px;
@@ -2139,10 +2185,10 @@ Responsive CSS
   font-size: 20px;
 }
 .post-button-pc2 {
-  margin-top: -350px;
+  margin-top: -250px;
   padding-left: 50px;
   margin-bottom: 70px;
-  width: 250px;
+  width: 200px;
 }
 
 .img-frame-pc {
@@ -2292,13 +2338,47 @@ Responsive CSS
       margin-left: auto;
       margin-right: auto;
   }
+  .button-seemore-pc-max2{
+    width: 100px;
+    margin-left: 20px;
+    margin-top: -200px;
+    
+  }
+  .button-seemore-pc-max1{
+    width: 100px;
+    margin-left: 20px;
+    margin-top: -200px;
+    
+  }
+  .download-pc-max{
+    width: 70%;
+  }
+  .about-area-content-frame-pc-max {
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+  }
+  /* .map-pc-max{
+    width: 80%;
+    margin-top: 20px;
+  }
+   */
   .single-fun-fact-iconimg-pc-max {
     width: 70px;
   }
   .number-about-max{
     font-size: 30px;
   }
+  .button-pc-max-readmore2{
+    margin-top: -420px;
+    margin-left: 40px;
+  }
   
+  .button-pc-max-readmore1{
+    /* padding-top: 180px; */
+    
+  }
   .pc-about-max{
     padding-top: 60px;
     padding-bottom: 80px;
@@ -2323,7 +2403,7 @@ Responsive CSS
     width: 60%;
     margin-top: 20px;
   }
-  .map-phone-max{
+  .map-pc-max{
     width: 60%;
     margin-top: 20px;
   } 
@@ -2338,13 +2418,12 @@ Responsive CSS
   }
   .half-post1-pc-max {
     width: 100%;
-    /* margin-bottom: 200px; */
-
+  
   }
 
   .half-post2-pc-max {
     width: 100%;
-    margin-top: -150px;
+    margin-top: -270px;
 
   }
   .single-fun-fact-pc-max{
@@ -2359,15 +2438,7 @@ margin-top: 50px;
     padding-left: 50px;
     width: 250px;
   }
-  .button-pc-max-readmore2{
-    margin-top: -420px;
-    margin-left: 40px;
-  }
-  
-  .button-pc-max-readmore1{
-    padding-top: 180px;
-    
-  }
+ 
   .about-area-content-max h3 {
     font-size: 36px;
   }
