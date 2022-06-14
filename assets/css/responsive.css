@@ -2339,9 +2339,9 @@ Responsive CSS
       margin-right: auto;
   }
   .button-seemore-pc-max2{
-    width: 100px;
+    width: 170px;
     margin-left: 20px;
-    margin-top: -200px;
+    margin-top: -80px;
     
   }
   .button-seemore-pc-max1{
@@ -2359,11 +2359,7 @@ Responsive CSS
     margin: auto;
     padding-top: 20px;
   }
-  /* .map-pc-max{
-    width: 80%;
-    margin-top: 20px;
-  }
-   */
+ 
   .single-fun-fact-iconimg-pc-max {
     width: 70px;
   }
@@ -2376,7 +2372,8 @@ Responsive CSS
   }
   
   .button-pc-max-readmore1{
-    /* padding-top: 180px; */
+    
+    margin-left: 40px;
     
   }
   .pc-about-max{
@@ -2423,8 +2420,7 @@ Responsive CSS
 
   .half-post2-pc-max {
     width: 100%;
-    margin-top: -270px;
-
+    margin-top: -260px;
   }
   .single-fun-fact-pc-max{
 margin-top: 50px;

@@ -191,7 +191,7 @@ h6 {
 
 .section-title span {
   font-size: 16px;
-  color: #ed272a;
+  color: #D4893B;
   text-transform: uppercase;
   display: inline-block;
   position: relative;
@@ -2968,7 +2968,7 @@ Blog Area CSS
 }
 
 .blog-item .content h3 a {
-  color: #1a1b1e;
+  color: #251657;
 }
 
 .blog-item .content p {
@@ -2997,11 +2997,11 @@ Blog Area CSS
 }
 
 .blog-item:hover .content h3 a {
-  color: #ed272a;
+  color: #afa061;
 }
 
 .blog-item:hover .content .read-more {
-  color: #ed272a;
+  color: #afa061;
   letter-spacing: 1px;
 }
 
