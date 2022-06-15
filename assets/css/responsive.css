@@ -2133,7 +2133,7 @@ Responsive CSS
 }
 
 .text-pc{
-  padding-top: 300px;
+  padding-top: 50px;
 }
 .pc-about{
   padding-top: 60px;
@@ -2164,10 +2164,7 @@ Responsive CSS
   width: 70%;
   margin-top: 20px;
 }
-.map-phone{
-  width: 60%;
-  margin-top: 20px;
-}
+
 .about-area-content-button-pc {
   width: 200px;
 }
@@ -2177,6 +2174,9 @@ Responsive CSS
   padding-left: 50px;
   width: 200px;
 }
+.single-fun-fact-pc{
+  margin-top: 50px;
+    }
 .about-area-content h3 {
   font-size: 36px;
 }
@@ -2337,6 +2337,9 @@ Responsive CSS
       display: block;
       margin-left: auto;
       margin-right: auto;
+  }
+  .text-pc-max{
+    padding-top: 50px;
   }
   .button-seemore-pc-max2{
     width: 170px;
