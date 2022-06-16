@@ -1949,7 +1949,7 @@ Events Area CSS
   font-size: 20px;
   margin: 0;
   padding: 0;
-  background: #c41417;
+  background: #716656;
   border-radius: 0;
   width: 40px;
   height: 40px;
@@ -1970,12 +1970,12 @@ Events Area CSS
   left: auto;
   right: 0;
   bottom: 0;
-  background-color: #8e1012;
+  background-color: #716656;
 }
 
 .events-image-slider.owl-theme .owl-nav [class*=owl-]:hover {
   color: #ffffff;
-  background-color: #8f1012;
+  background-color: #afa061;
 }
 
 .events-item {
@@ -1986,6 +1986,11 @@ Events Area CSS
   font-size: 28px;
   margin-bottom: 0;
   line-height: 1.5;
+}
+.project-p{
+ 
+  margin-top: 20px;
+  
 }
 
 .events-item .events-content {
@@ -5846,9 +5851,7 @@ Blog Details Area Style
   color: #1a1b1e;
   line-height: 1.6;
   margin-bottom: 0;
-  font-style: italic;
-  font-weight: 600;
-  font-size: 17px !important;
+  font-size: 16px !important;
   text-align: left;
 }
 
@@ -5863,7 +5866,7 @@ Blog Details Area Style
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #ed272a;
+  background-color: #D4893B;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -5915,11 +5918,11 @@ Blog Details Area Style
 .blog-details-area .post-navigation .navigation-links div a {
   display: inline-block;
   font-weight: 600;
-  color: #1a1b1e;
+  color: #251657;
 }
 
 .blog-details-area .post-navigation .navigation-links div a:hover {
-  color: #ed272a;
+  color: #D4893B;
 }
 
 .blog-details-area .comments-area {
@@ -6391,6 +6394,7 @@ Blog Details Area Style
   height: 50px;
   padding: 6px 15px;
   border: 1px solid #eeeeee;
+  border-color: #716656;
   width: 100%;
   display: block;
   outline: 0;
@@ -6399,7 +6403,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .widget_search form .search-field:focus {
-  border-color: #ed272a;
+  border-color: #afa061;
 }
 
 .blog-details-area .widget-area .widget_search form button {
@@ -6411,14 +6415,14 @@ Blog Details Area Style
   width: 50px;
   border: none;
   color: #ffffff;
-  background-color: #ed272a;
+  background-color: #716656;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   cursor: pointer;
 }
 
 .blog-details-area .widget-area .widget_search form button:hover {
-  background-color: #1a1b1e;
+  background-color:  #afa061;
 }
 
 .blog-details-area .widget-area .widget-peru-posts-thumb {
@@ -6566,7 +6570,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .widget_categories ul li::before {
-  background: #ed272a;
+  background: #D4893B;
   position: absolute;
   height: 10px;
   width: 10px;
@@ -6579,7 +6583,7 @@ Blog Details Area Style
 
 .blog-details-area .widget-area .widget_categories ul li a {
   display: block;
-  color: #666666;
+  color: #716656;
   font-weight: normal;
   font-size: 14px;
 }
@@ -6590,7 +6594,7 @@ Blog Details Area Style
 }
 
 .blog-details-area .widget-area .widget_categories ul li a:hover {
-  color: #ed272a;
+  color: #afa061;
 }
 
 .blog-details-area .widget-area .widget_categories ul li .post-count {
@@ -6975,4 +6979,15 @@ div.underline-gold {
 }
 
 
+.projects{
+  margin-top: 20px;
+}
 
+.rice-bank{
+  font-size: 24px;
+}
+
+.home-title{
+  font-weight: bold;
+  font-size: 17px;
+}
