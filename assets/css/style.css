@@ -126,7 +126,7 @@ h6 {
 /* Default Btn
 =================*/
 .default-btn {
-  border: 1px solid #ed272a;
+  border: 1px solid #716656;
   position: relative;
   display: inline-block;
   text-align: center;
@@ -134,7 +134,7 @@ h6 {
   z-index: 1;
   color: #ffffff;
   text-transform: uppercase;
-  background-color: #ed272a;
+  background-color: #716656;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-weight: 400;
@@ -144,11 +144,34 @@ h6 {
   padding-top: 12px;
   padding-bottom: 12px;
 }
-
-.default-btn:hover {
-  color: #ed272a;
+.reset-btn {
+  border: 1px solid #716656;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  color: #716656;
+  text-transform: uppercase;
   background-color: #ffffff;
-  border: 1px solid #ed272a;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.reset-btn:hover {
+  color: #ffffff;
+  background-color: #716656;
+  border: 1px solid #716656;
+}
+.default-btn:hover {
+  color: #ffffff;
+  background-color: #afa061;
+  border: 1px solid #afa061;
 }
 
 /* Optional Btn
@@ -493,7 +516,7 @@ Navbar Area CSS
 .main-nav .others-option .option-item .dropdown-toggle {
   background-color: transparent;
   border: none;
-  color: #716656;
+  color: #afa061;
   text-transform: uppercase;
 }
 
@@ -506,7 +529,7 @@ Navbar Area CSS
   position: relative;
   top: 2px;
   left: 2px;
-  color: #716656;
+  color: #afa061;
 }
 
 .main-nav .others-option .option-item .burger-menu {
@@ -1692,7 +1715,7 @@ Causes Area CSS
 Donors Area CSS
 =================================================*/
 .donors-section {
-  background-color: #1a1b1e;
+  background-color: #ffffff;
 }
 
 .donors-section::before {
@@ -1703,19 +1726,19 @@ Donors Area CSS
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #000000;
+  background: #ffffff;
   opacity: .77;
 }
 
 .donors-section .section-title span {
   font-size: 16px;
-  color: #ed272a;
+  color: #D4893B;;
   text-transform: uppercase;
   display: inline-block;
   position: relative;
   margin-left: 10px;
   font-weight: 600;
-  color: #ffffff;
+  color: #D4893B;;
 }
 
 .donors-section .section-title span::before {
@@ -1723,14 +1746,14 @@ Donors Area CSS
   position: absolute;
   height: 100%;
   width: 2px;
-  background-color: #ed272a;
+  background-color: #D4893B;;
   left: -12px;
 }
 
 .donors-section .section-title h2 {
   font-size: 50px;
   margin: 14px 0 10px 0;
-  color: #ffffff;
+  color: #251657;
 }
 
 .donors-section .section-title p {
@@ -1767,7 +1790,7 @@ Donors Area CSS
   content: "";
   height: 100%;
   width: 58%;
-  background-color: #ed272a;
+  background-color: #716656;
   left: 0;
   top: 0;
   z-index: 1;
@@ -1778,7 +1801,7 @@ Donors Area CSS
   content: "";
   height: 100%;
   width: 50%;
-  background-color: #c61417;
+  background-color: #716656;
   right: 0;
   top: 0;
 }
@@ -1793,6 +1816,7 @@ Donors Area CSS
   position: relative;
   z-index: 1;
 }
+
 
 .donors-slider .donors-item .image .donors-offer li:last-child {
   border-right: none;
@@ -1819,13 +1843,20 @@ Donors Area CSS
 .donors-slider .donors-item .content h3 {
   font-size: 20px;
   margin-bottom: 10px;
+  color: #251657;
 }
 
 .donors-slider .donors-item .content span {
-  color: #ed272a;
+  color: #716656;
   font-size: 15px;
   font-weight: 500;
 }
+.donors-slider .donors-item .content span:hover {
+  color: #afa061;
+  font-size: 15px;
+  font-weight: 500;
+}
+
 
 .donors-slider .donors-item .content span i {
   margin-left: 5px;
@@ -6870,12 +6901,13 @@ Contact Area Style
   height: 50px;
   padding: 10px 15px;
   font-size: 14px;
+  border-color: #716656;
 }
 
 .contact-area .contact-wrap .form-group .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: #ed272a;
+  border-color: #afa061;
 }
 
 .contact-area .contact-wrap .form-group .form-control.hight-unset {
@@ -6905,7 +6937,7 @@ Contact Area Style
   color: #ffffff;
   font-weight: 600;
   margin-bottom: 15px;
-  background-color: #ed272a;
+  background-color: #716656;
   padding: 19px 20px;
   padding-left: 60px;
   list-style-type: none;

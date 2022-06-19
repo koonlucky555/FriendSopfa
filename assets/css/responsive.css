@@ -2141,8 +2141,8 @@ Responsive CSS
 }
 .first-team-pc {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 19.5em;
+  margin-right: 24em;
 }
 .button-asa-pc {
   width: 120px;
@@ -2385,8 +2385,9 @@ Responsive CSS
   }
   .first-team-pc-max {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 27em;
+    margin-right: 24em;
+    
   }
   .button-asa-pc-max {
     width: 200px;
