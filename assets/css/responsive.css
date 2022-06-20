@@ -2164,7 +2164,9 @@ Responsive CSS
   width: 70%;
   margin-top: 20px;
 }
-
+.pc-shop-text{
+  margin-top: -40px;
+}
 .about-area-content-button-pc {
   width: 200px;
 }
@@ -2341,6 +2343,10 @@ Responsive CSS
   .text-pc-max{
     padding-top: 50px;
   }
+  .pc-max-shop-text{
+    margin-top: -150px;
+  }
+  
   .button-seemore-pc-max2{
     width: 170px;
     margin-left: 20px;
@@ -2487,6 +2493,9 @@ margin-top: 50px;
 
   .mobile-nav .logo {
     top: 22px;
+  }
+  .mobile-shop-text{
+    margin-top: 50px;
   }
 
   .mobile-nav.mean-container .mean-nav {

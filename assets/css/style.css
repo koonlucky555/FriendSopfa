@@ -1058,14 +1058,14 @@ Fun Facts Area CSS
   z-index: -1;
   width: 100%;
   height: 0%;
-  background: #ed272a;
+  background: #EDE4D0;
   border-radius: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .single-fun-fact:hover {
-  border: 1px solid #ed272a;
+  border: 1px solid #EDE4D0;
 }
 
 .single-fun-fact:hover::before {
@@ -2011,12 +2011,14 @@ Events Area CSS
 
 .events-item {
   padding-left: 20px;
+ 
 }
 
 .events-item .events-text h3 {
   font-size: 28px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   line-height: 1.5;
+
 }
 .project-p{
  
@@ -2071,11 +2073,19 @@ Events Area CSS
 
 .events-item .events-btn .events-btn-one {
   font-size: 15px;
-  color: #ed272a;
+  color: #716656;
   font-weight: bold;
   display: inline-block;
   margin-right: 30px;
 }
+.events-item .events-btn .events-btn-one:hover {
+  font-size: 15px;
+  color: #afa061;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 30px;
+}
+
 
 .events-item .events-btn .events-btn-one i {
   margin-right: 5px;
@@ -2515,7 +2525,7 @@ Team Area CSS
 
 .team-item .image .content {
   position: absolute;
-  background: #ed272a;
+  background: #716656;
   -webkit-box-shadow: 1px 20px 30px rgba(0, 0, 0, 0.07);
   box-shadow: 1px 20px 30px rgba(0, 0, 0, 0.07);
   width: 100%;
@@ -2543,6 +2553,12 @@ Team Area CSS
   font-size: 16px;
   margin-top: 10px;
 }
+.team-item .image .content span:hover {
+  display: block;
+  color: #afa061;
+  font-size: 16px;
+  margin-top: 10px;
+}
 
 .team-item:hover .image .social li {
   -webkit-transform: translateY(0);
@@ -2564,7 +2580,7 @@ Team Area CSS
   width: 10px;
   height: 10px;
   margin: 0 4px;
-  background: #ed272a;
+  background: #716656;
   position: relative;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2576,7 +2592,7 @@ Team Area CSS
 .team-slider.owl-theme .owl-dots .owl-dot.active span {
   width: 30px;
   border-radius: 10px;
-  background-color: #bdbdbd;
+  background-color: #afa061;
 }
 
 .team-slider.owl-theme .owl-nav.disabled+.owl-dots {
